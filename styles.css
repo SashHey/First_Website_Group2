@@ -1,0 +1,30 @@
+.patrick-hand-regular {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.body{
+    overflow: scroll;
+    visibility: hidden;
+}
+
+.main_img{
+    opacity: 0.5
+}
+
+.report1{
+    border: 5px dotted rgb(112, 112, 180);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+h3{
+    font-size: 18px;
+    font-family: "Patrick Hand";
+    text-decoration: underline;
+    letter-spacing: 7px;
+    font-weight: bold;
+}

@@ -15,6 +15,10 @@
 
 .report1{
     border: 5px dotted rgb(112, 112, 180);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
     margin-left: 10%;
     margin-right: 10%;
     padding-left: 25px;
@@ -45,4 +49,37 @@ a:hover{
     column-count: 5;
     column-gap: 20px;
     column-rule: 1px solid black;
+}
+
+ol.contact-list li:hover{
+    background-color: #8c8c8c;
+}
+
+ol.contact-list li:first-child{
+    font-weight: bold;
+}
+
+ol.contact-list li:nth-child(3){
+    color: #817171;
+}
+
+.box{
+    background-color: #e0e349;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    padding: 10px;
+    transition: transform 0.5s ease;
+}
+
+.box:hover{
+    transform: scale(1.5) rotate(45deg);
+}
+
+.box2{
+    background-color: #4ca2a6;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    padding: 10px;
 }

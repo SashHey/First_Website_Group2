@@ -1,12 +1,22 @@
+:root{
+    --main-color: #528d91;
+    --main-txt-color: #dc1111;
+}
+
 .patrick-hand-regular {
   font-family: "Patrick Hand", cursive;
   font-weight: 400;
   font-style: normal;
 }
 
+h1{
+    color: var(--main-txt-color);
+}
+
 .body{
     overflow: scroll;
     visibility: hidden;
+    background-color: var(--main-color);
 }
 
 .main_img{

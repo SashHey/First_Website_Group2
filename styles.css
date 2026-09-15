@@ -28,3 +28,21 @@ h3{
     letter-spacing: 7px;
     font-weight: bold;
 }
+
+a:link{
+    color: #d5445f
+}
+
+a:visited{
+    color: #984685
+}
+
+a:hover{
+    color: #7c64f4
+}
+
+.multi{
+    column-count: 5;
+    column-gap: 20px;
+    column-rule: 1px solid black;
+}
